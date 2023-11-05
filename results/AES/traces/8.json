@@ -1,1 +1,52 @@
-{"data":[[0,{"call_type":"FirstLevelCall","caller":"0x68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024","contract":"0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3","input":"fff6cae9","value":"0","source":null,"results":""}],[1,{"call_type":"StaticCall","caller":"0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3","contract":"0x55d398326f99059ff775485246999027b3197955","input":"70a0823100000000000000000000000040ed17221b3b2d8455f4f1a05cac6b77c5f707e3","value":"0","source":null,"results":"000000000000000000000000000000000000000000000d8ee82c2dca561d78c5"}],[1,{"call_type":"StaticCall","caller":"0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3","contract":"0xddc0cff76bcc0ee14c3e73af630c029fe020f907","input":"70a0823100000000000000000000000040ed17221b3b2d8455f4f1a05cac6b77c5f707e3","value":"0","source":null,"results":"0000000000000000000000000000000000000000000349f7515860b3a2ec6202"}],[0,{"call_type":"Event","caller":"0x68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024","contract":"0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3","input":"000000000000000000000000000000000000000000000d8ee82c2dca561d78c50000000000000000000000000000000000000000000349f7515860b3a2ec6202(1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1)","value":"","source":null,"results":""}]]}
+{
+  "data": [
+    [
+      0,
+      {
+        "call_type": "FirstLevelCall",
+        "caller": "0x68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024",
+        "contract": "0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "input": "fff6cae9",
+        "value": "0",
+        "source": null,
+        "results": ""
+      }
+    ],
+    [
+      1,
+      {
+        "call_type": "StaticCall",
+        "caller": "0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "contract": "0x55d398326f99059ff775485246999027b3197955",
+        "input": "70a0823100000000000000000000000040ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "value": "0",
+        "source": null,
+        "results": "000000000000000000000000000000000000000000000d8ee82c2dca561d78c5"
+      }
+    ],
+    [
+      1,
+      {
+        "call_type": "StaticCall",
+        "caller": "0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "contract": "0xddc0cff76bcc0ee14c3e73af630c029fe020f907",
+        "input": "70a0823100000000000000000000000040ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "value": "0",
+        "source": null,
+        "results": "0000000000000000000000000000000000000000000349f7515860b3a2ec6202"
+      }
+    ],
+    [
+      0,
+      {
+        "call_type": "Event",
+        "caller": "0x68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024",
+        "contract": "0x40ed17221b3b2d8455f4f1a05cac6b77c5f707e3",
+        "input": "000000000000000000000000000000000000000000000d8ee82c2dca561d78c50000000000000000000000000000000000000000000349f7515860b3a2ec6202(1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1)",
+        "value": "",
+        "source": null,
+        "results": ""
+      }
+    ]
+  ]
+}
