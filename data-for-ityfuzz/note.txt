@@ -1,2 +1,2 @@
 1. all entries before incident_id: 223 -> no adversarial contracts investigated
-2. what is needed for time-frame analysis? - contract deployment -----> first transactions
+2. what is needed for time-frame analysis? - contract deployment DONE -----> first transactions
