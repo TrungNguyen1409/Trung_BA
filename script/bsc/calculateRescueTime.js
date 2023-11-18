@@ -1,7 +1,7 @@
 // otherFile.js
 const {
   getFirstTransactionAfterCreation,
-} = require("./getFirstTrxBlockByContract");
+} = require("./getTransationsBlockWithAddress");
 
 // Smart contract address to query
 // MAD Incident
