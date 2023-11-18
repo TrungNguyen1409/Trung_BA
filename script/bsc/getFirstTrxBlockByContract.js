@@ -7,9 +7,6 @@ const apiUrl = "https://api.bscscan.com/api";
 // API key (replace 'YourApiKeyToken' with your actual API key)
 const apiKey = "FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH";
 
-// Smart contract address to query
-const contractAddress = "0x525c8e9c8240a55014BC55cbE8908EadADB02094";
-
 // Function to get contract creation hashes
 async function getContractCreationHashes(contractAddresses) {
   const requestUrl = `${apiUrl}?module=contract&action=getcontractcreation&contractaddresses=${contractAddresses.join(
@@ -70,20 +67,12 @@ async function getFirstTransactionAfterCreation(contractAddress) {
     );
 
     // Get the first transaction after the contract creation
+    const creationTransaction = transactions[creationTxIndex + 1];
     const firstTransactionAfterCreation = transactions[creationTxIndex + 2];
-
-    return firstTransactionAfterCreation;
+    return {creationTransaction, firstTransactionAfterCreation};
   } catch (error) {
     throw new Error(`Error: ${error.message}`);
   }
 }
 
-// Get the first transaction after contract creation
-getFirstTransactionAfterCreation(contractAddress)
-  .then((result) => {
-    console.log("First Transaction After Contract Creation:");
-    console.log(result);
-  })
-  .catch((error) => {
-    console.error(`Error: ${error.message}`);
-  });
+module.exports = {getFirstTransactionAfterCreation};
