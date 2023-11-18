@@ -1,0 +1,1 @@
+1. all entries before incident_id: 223 -> no adversarial contracts investigated
