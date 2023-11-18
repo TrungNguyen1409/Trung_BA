@@ -17,6 +17,7 @@ axios
     const transaction = response.data.result;
     if (transaction) {
       console.log(`Block Number: ${parseInt(transaction.blockNumber, 16)}`);
+      console.log(`TRX Info: ${transaction}`);
     } else {
       console.log("Transaction not found");
     }
