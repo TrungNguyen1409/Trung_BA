@@ -2,11 +2,10 @@
 const axios = require("axios");
 
 // API endpoint URL
-const apiUrl = "https://api.ethscan.com/api";
+const apiUrl = "https://api.etherscan.io/api";
 
 // API key (replace 'YourApiKeyToken' with your actual API key)
-const apiKey =
-  "0xcda228e5ca5d98853c62b788833bc513474273a1eec8198de5e6e5048f30c1ca";
+const apiKey = "RQK715JG3N1EK96NXU7CD4U45JZNB51EWN";
 
 // Function to get contract creation hashes
 async function getContractCreationHashes(contractAddresses) {
