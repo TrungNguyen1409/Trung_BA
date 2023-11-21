@@ -8,6 +8,8 @@ const getAddressByChainType = require("./getAddressFromDB");
 // Smart contract address to query
 const contractAddress = "0xbf7fc9e12bcd08ec7ef48377f2d20939e3b4845d";
 
+let rescueTimeArray = [];
+
 // Use Promise chaining to ensure getAddressByChainType is completed before using its result
 getAddressByChainType("BSC")
   .then((addressArray) => {
@@ -33,6 +35,12 @@ getAddressByChainType("BSC")
             3
           } seconds`
         );
+        rescueTimeArray.push(
+          (result.firstTransactionAfterCreation.blockNumber -
+            result.creationTransaction.blockNumber) *
+            3
+        );
+        console.log(rescueTimeArray);
       })
       .catch((error) => {
         console.error(`Error: ${error.message}`);
