@@ -6,7 +6,7 @@ const {
 // Smart contract address to query
 // MAD Incident
 const contractAddress1 = "0x525c8e9c8240a55014BC55cbE8908EadADB02094";
-const contractAddress = "0x71Ac864f9388eBD8e55a3cdBC501D79C3810467C";
+const contractAddress = "0xbf7fc9e12bcd08ec7ef48377f2d20939e3b4845d";
 // Use the exported function
 // can return them both here -> by adjust the index of smth +1 +2
 // TODO: write the rescue time to the DB or a JSON
