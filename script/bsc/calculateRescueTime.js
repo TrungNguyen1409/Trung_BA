@@ -50,6 +50,15 @@ async function fetchTransactionsForAddresses() {
       }
     }
 
+    console.log(
+      "total time: ",
+      rescueTimeArray.reduce(
+        (accumulator, entry) => accumulator + entry.rescueTime,
+        0
+      )
+    );
+    console.log(rescueTimeArray.length);
+
     // Write the rescueTimeArray to a JSON file
     const jsonContent = JSON.stringify(rescueTimeArray, null, 2);
     fs.writeFileSync("./rescueTimeArray.json", jsonContent);
