@@ -12,18 +12,18 @@ const contractAddress = "0x3d817ea746edd02c088c4df47c0ece0bd28dcd72";
 // TODO: write the rescue time to the DB or a JSON
 getFirstTransactionAfterCreation(contractAddress)
   .then((result) => {
-    console.log("Created at Block # ");
-    console.log(result.creationTransaction.blockNumber);
-    console.log("First Transaction After Contract Creation:");
-    console.log(result.firstTransactionAfterCreation.blockNumber);
-
-    console.log("RESCUE TIME!: ");
+    console.log(`Created at Block: ${result.creationTransaction.blockNumber}`);
     console.log(
-      (result.firstTransactionAfterCreation.blockNumber -
-        result.creationTransaction.blockNumber) *
-        3
+      `First Transaction After Contract Creation at Block: ${result.firstTransactionAfterCreation.blockNumber}`
     );
-    console.log("seconds");
+
+    console.log(
+      `RESCUE TIME!: ${
+        (result.firstTransactionAfterCreation.blockNumber -
+          result.creationTransaction.blockNumber) *
+        3
+      } seconds`
+    );
   })
   .catch((error) => {
     console.error(`Error: ${error.message}`);
