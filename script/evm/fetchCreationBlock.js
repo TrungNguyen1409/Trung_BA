@@ -1,5 +1,5 @@
 const axios = require("axios");
-
+const getAddressByChainType = require("./getBlockByHash");
 async function getContractDeployBlock(contractAddress) {
   const apiKey = "FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH"; // Replace with your BSC Scan API key
   const apiUrl = `https://api.bscscan.com/api`;
