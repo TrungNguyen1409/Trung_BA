@@ -1,51 +1,66 @@
-// otherFile.js
+const fs = require("fs");
 const {
   getFirstTransactionAfterCreation,
 } = require("./getTransationsBlockWithAddress");
 
 const getAddressByChainType = require("./getAddressFromDB");
 
-// Smart contract address to query
-const contractAddress = "0xbf7fc9e12bcd08ec7ef48377f2d20939e3b4845d";
+async function fetchTransactionsForAddresses() {
+  try {
+    // Get the array of addresses
+    const addressArray = await getAddressByChainType("BSC");
 
-let rescueTimeArray = [];
-
-// Use Promise chaining to ensure getAddressByChainType is completed before using its result
-getAddressByChainType("BSC")
-  .then((addressArray) => {
     console.log(`Adversary Contracts with chain "BSC":`, addressArray);
 
-    // Use the exported function
-    // can return them both here -> by adjusting the index of something +1 +2
-    // TODO: write the rescue time to the DB or a JSON
+    let rescueTimeArray = [];
 
-    getFirstTransactionAfterCreation(contractAddress)
-      .then((result) => {
+    // Use a for loop to iterate through each address
+    for (let i = 0; i < addressArray.length; i++) {
+      try {
+        // Call the function for each address
+        const result = await getFirstTransactionAfterCreation(addressArray[i]);
+
         console.log(
-          `Created at Block: ${result.creationTransaction.blockNumber}`
+          `Created at Block for ${addressArray[i]}: ${result.creationTransaction.blockNumber}`
         );
         console.log(
           `First Transaction After Contract Creation at Block: ${result.firstTransactionAfterCreation.blockNumber}`
         );
 
         console.log(
-          `RESCUE TIME!: ${
+          `RESCUE TIME for ${addressArray[i]}: ${
             (result.firstTransactionAfterCreation.blockNumber -
               result.creationTransaction.blockNumber) *
             3
           } seconds`
         );
-        rescueTimeArray.push(
-          (result.firstTransactionAfterCreation.blockNumber -
-            result.creationTransaction.blockNumber) *
-            3
-        );
-        console.log(rescueTimeArray);
-      })
-      .catch((error) => {
-        console.error(`Error: ${error.message}`);
-      });
-  })
-  .catch((error) => {
+
+        // Push the rescue time to the array
+        rescueTimeArray.push({
+          address: addressArray[i],
+          rescueTime:
+            (result.firstTransactionAfterCreation.blockNumber -
+              result.creationTransaction.blockNumber) *
+            3,
+        });
+      } catch (error) {
+        console.error(`Error for address ${addressArray[i]}: ${error.message}`);
+        // Optionally, you can push a default or placeholder value if an error occurs
+        // rescueTimeArray.push({ error: `Error for address ${addressArray[i]}: ${error.message}` });
+      }
+    }
+
+    // Write the rescueTimeArray to a JSON file
+    const jsonContent = JSON.stringify(rescueTimeArray, null, 2);
+    fs.writeFileSync("./rescueTimeArray.json", jsonContent);
+
+    // Print the rescue time array
+    console.log("Rescue Time Array:", rescueTimeArray);
+    console.log("Rescue Time Array written to rescueTimeArray.json");
+  } catch (error) {
     console.error("Error:", error);
-  });
+  }
+}
+
+// Call the function
+fetchTransactionsForAddresses();
