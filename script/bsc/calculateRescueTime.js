@@ -6,7 +6,7 @@ const {
 // Smart contract address to query
 // MAD Incident
 const contractAddress1 = "0x525c8e9c8240a55014BC55cbE8908EadADB02094";
-const contractAddress = "0xD7ba198ce82f4c46AD8F6148CCFDB41866750231";
+const contractAddress = "0x3463a663de4ccc59c8b21190f81027096f18cf2a";
 // Use the exported function
 // can return them both here -> by adjust the index of smth +1 +2
 // TODO: write the rescue time to the DB or a JSON
@@ -19,13 +19,11 @@ getFirstTransactionAfterCreation(contractAddress)
 
     console.log("RESCUE TIME!: ");
     console.log(
-      ((result.firstTransactionAfterCreation.blockNumber -
+      (result.firstTransactionAfterCreation.blockNumber -
         result.creationTransaction.blockNumber) *
-        3) /
-        60 /
-        60
+        3
     );
-    console.log("Hours");
+    console.log("seconds");
   })
   .catch((error) => {
     console.error(`Error: ${error.message}`);
