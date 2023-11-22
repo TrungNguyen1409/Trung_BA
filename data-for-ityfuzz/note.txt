@@ -1,3 +1,9 @@
 1. all entries before incident_id: 223 -> no adversarial contracts investigated
 2. what is needed for time-frame analysis? - contract deployment DONE -----> first transactions
 3. MAIN DB: defi_sok_extended.db in the database folder
+
+My personal RPC Endpoint:
+
+ETH_RPC_URL=https://mainnet.infura.io/v3/4da7363666a14c46a3e69bbac0773c39
+
+flag to fuzz for all vulnerablitiy: "--run-forever"
