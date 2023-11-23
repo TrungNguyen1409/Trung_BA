@@ -7,7 +7,7 @@ const fsExtra = require("fs-extra");
 const jsonString = fs.readFileSync("exact_block_exploits.json", "utf8");
 const tasks = JSON.parse(jsonString);
 
-const errorLogFile = "error_log.txt"; // Specify the correct file name
+const errorLogFile = "error_log.txt";
 
 // Function to execute ityfuzz command with a timeout
 async function executeItyfuzzCommandWithTimeout(
@@ -82,16 +82,14 @@ async function runTasksWithTimeout(timeout) {
         task.id
       );
     } catch (error) {
-      // Handle errors, e.g., move to the next entry in the JSON array
       console.error("Error executing task:", error.message);
     }
 
-    console.log("\n"); // Add a new line for better console output separation
+    console.log("\n");
   }
 }
 
-// Set the timeout (in seconds)
-const timeout = 30;
+// Set the timeout 1 hours
+const timeout = 3600;
 
-// Run the tasks with a timeout
 runTasksWithTimeout(timeout);
