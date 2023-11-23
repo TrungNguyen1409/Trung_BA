@@ -1,2 +1,5 @@
 node_modules
 bin
+work_dir
+solutions
+cache
