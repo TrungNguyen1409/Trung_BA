@@ -2,6 +2,7 @@ const fs = require("fs");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const fsExtra = require("fs-extra");
+const rimraf = require("rimraf");
 
 // Read the JSON file
 const jsonString = fs.readFileSync("exact_block_exploits.json", "utf8");
@@ -51,18 +52,13 @@ async function executeItyfuzzCommandWithTimeout(
         errorLogFile,
         `${executionName} : ${error.message}\n`
       );
-
       if (fs.existsSync("work_dir")) {
-        fsExtra.emptyDirSync("work_dir");
-
-        // Wait for a short duration (e.g., 100 milliseconds)
-        await new Promise((resolve) => setTimeout(resolve, 100));
-
         // Remove the "work_dir" folder
-        fsExtra.rmdirSync("work_dir");
+        fsExtra.removeSync("work_dir");
+        console.log('Removed "work_dir"');
+      } else {
+        console.log('"work_dir" folder does not exist.');
       }
-      console.error("Error executing command:", error.message);
-      reject(error);
     }
   });
 
