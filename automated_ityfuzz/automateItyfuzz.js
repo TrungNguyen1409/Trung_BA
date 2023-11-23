@@ -18,6 +18,7 @@ async function executeItyfuzzCommandWithTimeout(
   const timeoutPromise = new Promise((_, reject) => {
     setTimeout(() => {
       reject(new Error(`Command execution for ${executionName} timed out`));
+      fs.promises.appendFile(errorLogFile, `${executionName} : TIMEOUT\n`);
     }, timeout * 1000);
   });
 
@@ -46,11 +47,19 @@ async function executeItyfuzzCommandWithTimeout(
 
       resolve();
     } catch (error) {
-      await fs.promises.writeFile(errorLogFile, error.message);
+      await fs.promises.appendFile(
+        errorLogFile,
+        `${executionName} : ${error.message}\n`
+      );
 
       if (fs.existsSync("work_dir")) {
-        fsExtra.removeSync("work_dir");
-        console.log('Removed "work_dir"');
+        fsExtra.emptyDirSync("work_dir");
+
+        // Wait for a short duration (e.g., 100 milliseconds)
+        await new Promise((resolve) => setTimeout(resolve, 100));
+
+        // Remove the "work_dir" folder
+        fsExtra.rmdirSync("work_dir");
       }
       console.error("Error executing command:", error.message);
       reject(error);
@@ -82,7 +91,7 @@ async function runTasksWithTimeout(timeout) {
 }
 
 // Set the timeout (in seconds)
-const timeout = 5;
+const timeout = 30;
 
 // Run the tasks with a timeout
 runTasksWithTimeout(timeout);
