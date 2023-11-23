@@ -28,14 +28,19 @@ async function executeItyfuzzCommandWithTimeout(
       console.log("Command executed successfully. Output:");
       console.log(stdout);
 
-      // Copy the "work_dir" folder to a new folder named after the current execution
-      const destinationFolder = `result_test/${executionName}`;
-      fsExtra.copySync("work_dir", destinationFolder);
-      console.log(`Copied "work_dir" to "${destinationFolder}"`);
+      // Check if the "work_dir" folder exists before copying
+      if (fs.existsSync("work_dir")) {
+        // Copy the "work_dir" folder to a new folder named after the current execution
+        const destinationFolder = `result_test/${executionName}`;
+        fsExtra.copySync("work_dir", destinationFolder);
+        console.log(`Copied "work_dir" to "${destinationFolder}"`);
 
-      // Remove the "work_dir" folder
-      fsExtra.removeSync("work_dir");
-      console.log('Removed "work_dir"');
+        // Remove the "work_dir" folder
+        fsExtra.removeSync("work_dir");
+        console.log('Removed "work_dir"');
+      } else {
+        console.log('"work_dir" folder does not exist.');
+      }
 
       resolve();
     } catch (error) {
@@ -49,6 +54,7 @@ async function executeItyfuzzCommandWithTimeout(
 
 // Function to run tasks with a timeout
 async function runTasksWithTimeout(timeout) {
+  console.log(tasks);
   for (const task of tasks) {
     console.log(`Running task: ${task.name}`);
 
