@@ -1,8 +1,0 @@
-EgdFinance : TIMEOUT
-ARA : TIMEOUT
-PLTD : TIMEOUT
-PLTD : Command failed: ./bashscript/bin/ityfuzz evm -o -t 0x55d398326f99059fF775485246999027B3197955,0xD7B7218D778338Ea05f5Ecce82f86D365E25dBCE,0x4397C76088db8f16C15455eB943Dd11F2DF56545,0x29b2525e11BC0B0E9E59f705F318601eA6756645 -c bsc --onchain-block-number 22252045 -f -i -p --onchain-etherscan-api-key FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH
-thread 'main' panicked at src/evm/onchain/endpoints.rs:990:14:
-Unexpected RPC error, consider setting env <ETH_RPC_URL> 
-note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-
