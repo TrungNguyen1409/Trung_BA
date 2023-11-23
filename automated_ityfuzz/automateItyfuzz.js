@@ -1,13 +1,18 @@
 const fs = require("fs");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
+const fsExtra = require("fs-extra");
 
 // Read the JSON file
 const jsonString = fs.readFileSync("exact_block_exploits.json", "utf8");
 const tasks = JSON.parse(jsonString);
 
 // Function to execute ityfuzz command with a timeout
-async function executeItyfuzzCommandWithTimeout(command, timeout) {
+async function executeItyfuzzCommandWithTimeout(
+  command,
+  timeout,
+  executionName
+) {
   return new Promise(async (resolve, reject) => {
     console.log(`Executing command: ${command}`);
 
@@ -15,7 +20,14 @@ async function executeItyfuzzCommandWithTimeout(command, timeout) {
       const {stdout, stderr} = await exec(command);
 
       setTimeout(() => {
-        console.log("Command executed successfully:", stdout);
+        console.log("Command executed successfully. Output:");
+        console.log(stdout);
+
+        // Copy the "work_dir" folder to a new folder named after the current execution
+        const destinationFolder = `result_test/${executionName}`;
+        fsExtra.copySync("work_dir", destinationFolder);
+        console.log(`Copied "work_dir" to "${destinationFolder}"`);
+
         resolve();
       }, timeout * 1000); // Convert seconds to milliseconds
 
@@ -37,7 +49,11 @@ async function runTasksWithTimeout(timeout) {
     console.log(`Running task: ${task.name}`);
 
     try {
-      await executeItyfuzzCommandWithTimeout(task.fuzzing_command, timeout);
+      await executeItyfuzzCommandWithTimeout(
+        task.fuzzing_command,
+        timeout,
+        task.name
+      );
     } catch (error) {
       // Handle errors, e.g., move to the next entry in the JSON array
       console.error("Error executing task:", error.message);
