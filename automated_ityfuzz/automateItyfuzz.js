@@ -2,7 +2,6 @@ const fs = require("fs");
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const fsExtra = require("fs-extra");
-const rimraf = require("rimraf");
 
 // Read the JSON file
 const jsonString = fs.readFileSync("exact_block_exploits.json", "utf8");
@@ -14,12 +13,16 @@ const errorLogFile = "error_log.txt"; // Specify the correct file name
 async function executeItyfuzzCommandWithTimeout(
   command,
   timeout,
-  executionName
+  executionName,
+  id
 ) {
   const timeoutPromise = new Promise((_, reject) => {
     setTimeout(() => {
       reject(new Error(`Command execution for ${executionName} timed out`));
-      fs.promises.appendFile(errorLogFile, `${executionName} : TIMEOUT\n`);
+      fs.promises.appendFile(
+        errorLogFile,
+        `${id} : ${executionName} : TIMEOUT\n`
+      );
     }, timeout * 1000);
   });
 
@@ -75,7 +78,8 @@ async function runTasksWithTimeout(timeout) {
       await executeItyfuzzCommandWithTimeout(
         task.fuzzing_command,
         timeout,
-        task.name
+        task.name,
+        task.id
       );
     } catch (error) {
       // Handle errors, e.g., move to the next entry in the JSON array
