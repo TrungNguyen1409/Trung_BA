@@ -1,0 +1,8 @@
+Reverted? true 
+ Txn:
+[38;2;211;29;219m[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb[0m
+   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m20123952230905.8781 Ether[0m}(0, path:(WETH → [38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m), address(this), block.timestamp);
+   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m10.0 Ether[0m}(0, path:(WETH → [38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m), address(this), block.timestamp);
+   └─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m324518553658442.9397 Ether[0m}(0, path:(WETH → [38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m), address(this), block.timestamp);
+[38;2;156;133;16m[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510[0m
+   └─[1] [38;2;6;79;67m0x7c2e0a82B2d6e19C4cfAe0503e8750f9BC064f43[0m.[38;2;255;123;114msetVerifyChild[0m(true)

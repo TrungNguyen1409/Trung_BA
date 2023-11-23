@@ -1,0 +1,8 @@
+Reverted? false 
+ Txn:
+[38;2;211;29;219m[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb[0m
+   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m20123952230905.8781 Ether[0m}(0, path:(WETH → [38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m), address(this), block.timestamp);
+   └─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m4703.9197 Ether[0m}(0, path:(WETH → [38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m), address(this), block.timestamp);
+[38;2;220;144;36m[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024[0m
+   ├─[1] [38;2;47;1;184m0xf841664153B5bb77e055B5e67914A8ac2e2f01b8[0m.[38;2;255;123;114mexecuteOperation[0m([38;2;70;119;141m0x1E813fA05739Bf145c1F182CB950dA7af046778d[0m, 56016786777.6634 Ether, 2596148429267413.8142 Ether, 0x)
+   └─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactTokensForETH[0m(100% Balance, 0, path:([38;2;47;1;184m0xf841664153B5bb77e055B5e67914A8ac2e2f01b8[0m → WETH), address(this), block.timestamp);

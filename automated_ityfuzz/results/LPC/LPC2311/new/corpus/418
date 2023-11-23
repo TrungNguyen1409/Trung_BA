@@ -1,0 +1,7 @@
+Reverted? false 
+ Txn:
+[38;2;211;29;219m[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb[0m
+   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m0.3332 Ether[0m}(0, path:(WETH → [38;2;227;41;131m0xBEF49A121aABC49Bfc53Bf60f80DF9d14fE32983[0m), address(this), block.timestamp);
+   ├─[1] [38;2;227;41;131m0xBEF49A121aABC49Bfc53Bf60f80DF9d14fE32983[0m.[38;2;255;123;114mdelegate[0m([38;2;211;29;219m0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb[0m)
+   ├─[1] [38;2;248;247;136m0x13A145D215182924c89F2aBc7D358DCc72F8F788[0m.[38;2;255;123;114mcreatePool[0m([38;2;248;247;136m0x13A145D215182924c89F2aBc7D358DCc72F8F788[0m)
+   │  │  └─[3] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m10.0 Ether[0m}(0, path:(WETH → [38;2;227;41;131m0xBEF49A121aABC49Bfc53Bf60f80DF9d14fE32983[0m), address(this), block.timestamp);
