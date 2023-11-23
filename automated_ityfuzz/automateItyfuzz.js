@@ -13,34 +13,38 @@ async function executeItyfuzzCommandWithTimeout(
   timeout,
   executionName
 ) {
-  return new Promise(async (resolve, reject) => {
+  const timeoutPromise = new Promise((_, reject) => {
+    setTimeout(() => {
+      reject(new Error(`Command execution for ${executionName} timed out`));
+    }, timeout * 1000);
+  });
+
+  const executionPromise = new Promise(async (resolve, reject) => {
     console.log(`Executing command: ${command}`);
 
     try {
       const {stdout, stderr} = await exec(command);
 
-      setTimeout(() => {
-        console.log("Command executed successfully. Output:");
-        console.log(stdout);
+      console.log("Command executed successfully. Output:");
+      console.log(stdout);
 
-        // Copy the "work_dir" folder to a new folder named after the current execution
-        const destinationFolder = `result_test/${executionName}`;
-        fsExtra.copySync("work_dir", destinationFolder);
-        console.log(`Copied "work_dir" to "${destinationFolder}"`);
+      // Copy the "work_dir" folder to a new folder named after the current execution
+      const destinationFolder = `result_test/${executionName}`;
+      fsExtra.copySync("work_dir", destinationFolder);
+      console.log(`Copied "work_dir" to "${destinationFolder}"`);
 
-        resolve();
-      }, timeout * 1000); // Convert seconds to milliseconds
+      // Remove the "work_dir" folder
+      fsExtra.removeSync("work_dir");
+      console.log('Removed "work_dir"');
 
-      // Reject the promise if there's an error
-      if (stderr) {
-        console.error("Error executing command:", stderr);
-        reject(stderr);
-      }
+      resolve();
     } catch (error) {
       console.error("Error executing command:", error.message);
       reject(error);
     }
   });
+
+  return Promise.race([executionPromise, timeoutPromise]);
 }
 
 // Function to run tasks with a timeout
