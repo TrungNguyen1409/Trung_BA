@@ -11,9 +11,11 @@ function deleteFolder(folderPath) {
 }
 
 // Specify the folders to be deleted
-const workDirPath = "./automated_ityfuzz/work_dir";
-const resultTestPath = "./automated_ityfuzz/result_test";
+const workDirPath = "./work_dir";
+const resultTestPath = "./result_test";
+const solutionPath = "./solutions";
 
 // Delete the specified folders
 deleteFolder(workDirPath);
 deleteFolder(resultTestPath);
+deleteFolder(solutionPath);
