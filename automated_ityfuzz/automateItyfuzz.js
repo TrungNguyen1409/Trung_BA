@@ -44,6 +44,10 @@ async function executeItyfuzzCommandWithTimeout(
 
       resolve();
     } catch (error) {
+      if (fs.existsSync("work_dir")) {
+        fsExtra.removeSync("work_dir");
+        console.log('Removed "work_dir"');
+      }
       console.error("Error executing command:", error.message);
       reject(error);
     }
