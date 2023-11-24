@@ -39,3 +39,10 @@ thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
 called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
+15 : ShadowFi : TIMEOUT
+16 : MetaPoint : TIMEOUT
+LPC : Command failed: ETH_RPC_URL=https://rpc.ankr.com/bsc/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x1e813fa05739bf145c1f182cb950da7af046778d,0x1E813fA05739Bf145c1F182CB950dA7af046778d,0x2ecD8Ce228D534D8740617673F31b7541f6A0099,0xcfb7909b7eb27b71fdc482a2883049351a1749d7 -c bsc --onchain-block-number 19852596 -f -i -p --onchain-etherscan-api-key FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
