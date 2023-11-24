@@ -7,3 +7,6 @@ My personal RPC Endpoint:
 ETH_RPC_URL=https://mainnet.infura.io/v3/4da7363666a14c46a3e69bbac0773c39
 
 flag to fuzz for all vulnerablitiy: "--run-forever"
+
+
+THIS ERROR: "stdout maxBuffer length exceeded" is clearly hinder the execution

@@ -89,7 +89,5 @@ async function runTasksWithTimeout(timeout) {
   }
 }
 
-// Set the timeout 1 hours
 const timeout = 3600;
-
 runTasksWithTimeout(timeout);
