@@ -16,6 +16,8 @@ async function executeItyfuzzCommandWithTimeout(
   executionName,
   id
 ) {
+  const maxBuffer = 1024 * 1024 * 50;
+
   const timeoutPromise = new Promise((_, reject) => {
     setTimeout(() => {
       reject(new Error(`Command execution for ${executionName} timed out`));
@@ -30,7 +32,7 @@ async function executeItyfuzzCommandWithTimeout(
     console.log(`Executing command: ${command}`);
 
     try {
-      const {stdout, stderr} = await exec(command);
+      const {stdout, stderr} = await exec(command, {maxBuffer});
 
       console.log("Command executed successfully. Output:");
       console.log(stdout);
