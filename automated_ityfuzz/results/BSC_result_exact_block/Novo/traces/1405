@@ -1,0 +1,3 @@
+[FirstLevelCall][0x68dd4f5ac792eaaa5e36f4f4e0474e0625dc9024 -> 0x9154c2684aef8d106babcb19aa81d4fabf7581ec] (dc3920230000000000000000000000006f90b3c8c57b518e44eeedfa10e1dc5783fb02c9) > ()
+  [Call][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0x6f90b3c8c57b518e44eeedfa10e1dc5783fb02c9] (efbe1c1c) > ()
+    [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0x6f90b3c8c57b518e44eeedfa10e1dc5783fb02c9] (3fa4f245) > ()

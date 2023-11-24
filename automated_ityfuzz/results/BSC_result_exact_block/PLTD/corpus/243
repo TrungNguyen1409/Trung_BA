@@ -1,0 +1,8 @@
+Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] Router.swapExactETHForTokens{value: 39614901899.9590 Ether}(0, path:(WETH → 0x1E813fA05739Bf145c1F182CB950dA7af046778d), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 1267650600228.2294 Ether}(0, path:(WETH → 0x1E813fA05739Bf145c1F182CB950dA7af046778d), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xf841664153B5bb77e055B5e67914A8ac2e2f01b8.executeOperation(0x1E813fA05739Bf145c1F182CB950dA7af046778d, 26854634375482082608525040810571513307253758250334.8102 Ether, 17256589230860470088695535320323684184372587944411238410956.9476 Ether, 0x3737f2ff1bfff2c8f0f2f20140f20081f2f20b21)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xf841664153B5bb77e055B5e67914A8ac2e2f01b8 → WETH), address(this), block.timestamp);

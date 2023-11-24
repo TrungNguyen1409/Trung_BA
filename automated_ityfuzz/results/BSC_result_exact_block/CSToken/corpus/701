@@ -1,0 +1,4 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0x470BC451810B312BBb1256f96B0895D95eA659B1.swap(176, 0, 0x0fCd52FD40B77E28062cf9889Dc3779C31c171fE, 0xfdfdfd00000001fdfdfdfdfdfdfdfdfdfcfdfd02)

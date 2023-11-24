@@ -1,0 +1,23 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A.skim(0x10bc28d2810dD462E16facfF18f78783e859351b)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A → WETH), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A.sync()
+   └─[1] Router.swapExactETHForTokens{value: 9.9999 Ether}(0, path:(WETH → 0x10bc28d2810dD462E16facfF18f78783e859351b), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.Stepping with return: 2830783164663966663766666630303164316431643164316431643164666666663030303030323030616429{value: 110758574331028255731.9410 Ether}()
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.Stepping with return: 28307829{value: 18889.4659 Ether}()
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A.skim(0x0000000000000000000000000000000000000000)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A → WETH), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.deposit{value: 5386}()
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A.sync()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A → WETH), address(this), block.timestamp);
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A.swap(3158, 8388857, 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 0x8fa100040403040404d2d2d2d2d2d2d2b42d2bf0)
+   │  ├─[2] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xF9e3151e813cd6729D52d9A0C3ee69F22CcE650A → WETH), address(this), block.timestamp);

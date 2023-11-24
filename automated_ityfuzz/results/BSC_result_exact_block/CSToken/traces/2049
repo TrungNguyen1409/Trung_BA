@@ -1,0 +1,6 @@
+[FirstLevelCall][0xe1a425f1ac34a8a441566f93c82dd730639c8510 -> 0x9154c2684aef8d106babcb19aa81d4fabf7581ec] (82c97b8d000000000000000000000000d4bbf439d3eab5155ca7c0537e583088fb4cfce8) > ()
+  [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0xd4bbf439d3eab5155ca7c0537e583088fb4cfce8] (b4999e85) > ()
+    [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0xd4bbf439d3eab5155ca7c0537e583088fb4cfce8] (b4999e85) > ()
+    [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0xd4bbf439d3eab5155ca7c0537e583088fb4cfce8] (65372147) > ()
+    [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0xd4bbf439d3eab5155ca7c0537e583088fb4cfce8] (2ddbd13a) > ()
+    [StaticCall][0x9154c2684aef8d106babcb19aa81d4fabf7581ec -> 0xd4bbf439d3eab5155ca7c0537e583088fb4cfce8] (2ddbd13a) > ()

@@ -1,0 +1,4 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B.burnFrom(0x12180BB36DdBce325b3be0c087d61Fce39b8f5A4, 0)

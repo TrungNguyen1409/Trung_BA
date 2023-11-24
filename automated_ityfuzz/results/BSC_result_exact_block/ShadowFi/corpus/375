@@ -1,0 +1,4 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0x556B9306565093C855AEA9AE92A594704c2Cd59e.multicall((0x0d0dc50d0d0dff8e8f8f8f878c8f8fc6a1c63900))

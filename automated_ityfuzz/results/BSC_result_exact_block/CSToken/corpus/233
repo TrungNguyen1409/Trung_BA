@@ -1,0 +1,8 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x7EFaEf62fDdCCa950418312c6C91Aef321375A00.sync()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x7EFaEf62fDdCCa950418312c6C91Aef321375A00 → WETH), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x89671544190eE39E469C8393009875dF6565457a.unpause()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x89671544190eE39E469C8393009875dF6565457a → WETH), address(this), block.timestamp);
