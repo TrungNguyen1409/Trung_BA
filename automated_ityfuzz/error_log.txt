@@ -12,3 +12,30 @@ ValueDeFi : stdout maxBuffer length exceeded
 Novo : stdout maxBuffer length exceeded
 9 : Novo : TIMEOUT
 LaunchZone : stdout maxBuffer length exceeded
+10 : LaunchZone : TIMEOUT
+----------------- 2nd execution after script adjustment --------------
+4 : LPC : TIMEOUT
+5 : PLTD : TIMEOUT
+6 : SheepFarm : TIMEOUT
+8 : ValueDeFi : TIMEOUT
+9 : Novo : TIMEOUT
+10 : LaunchZone : TIMEOUT
+11 : PanCakeHunny : TIMEOUT
+12 : CSToken : TIMEOUT
+13 : CFTToken : TIMEOUT
+14 : WGPT : TIMEOUT
+ValueDeFi : Command failed: ETH_RPC_URL=https://rpc.ankr.com/bsc/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x4269e4090FF9dFc99D8846eB0D42E67F01C3AC8b,0xD4BBF439d3EAb5155Ca7c0537E583088fB4CFCe8,0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0x7Af938f0EFDD98Dc513109F6A7E85106D26E16c4,0xd7D069493685A581d27824Fc46EdA46B7EfC0063 -c bsc --onchain-block-number 7223029 -f -i -p --onchain-etherscan-api-key FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+WGPT : Command failed: ETH_RPC_URL=https://rpc.ankr.com/bsc/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x55d398326f99059fF775485246999027B3197955,0xe1272a840F574b68dE861eC5009784e3411cb96c,0xaa07222e4c3295C4E881ac8640Fbe5fB921D6840,0x81917eb96b397dFb1C6000d28A5bc08c0f05fC1d,0x5336a15f27b74f62cc182388c005df419ffb58b8,0x4f3126d5DE26413AbDCF6948943FB9D0847d9818,0x5a596eAE0010E16ed3B021FC09BbF0b7f1B2d3cD,0x1f415255f7E2a8546559a553E962dE7BC60d7942,0x1f415255f7e2a8546559a553e962de7bc60d7942 -c bsc --onchain-block-number 29891709 -f -i -p --onchain-etherscan-api-key FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+PanCakeHunny : Command failed: ETH_RPC_URL=https://rpc.ankr.com/bsc/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x12180BB36DdBce325b3be0c087d61Fce39b8f5A4,0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82,0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,0xb9b0090aaa81f374d66d94a8138d80caa2002950,0x109Ea28dbDea5E6ec126FbC8c33845DFe812a300,0x515Fb5a7032CdD688B292086cf23280bEb9E31B6,0x565b72163f17849832A692A3c5928cc502f46D69 -c bsc --onchain-block-number 7962338 -f -i -p --onchain-etherscan-api-key FJMFRFSI3Z8WP9YVU6IBRVZ35IQKB5EPTH
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
