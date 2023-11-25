@@ -1,7 +1,0 @@
-Reverted? false 
- Txn:
-[38;2;156;133;16m[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510[0m
-   ├─[1] [38;2;55;90;0m0x7EFaEf62fDdCCa950418312c6C91Aef321375A00[0m.[38;2;255;123;114msync[0m()
-   └─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactTokensForETH[0m(100% Balance, 0, path:([38;2;55;90;0m0x7EFaEf62fDdCCa950418312c6C91Aef321375A00[0m → WETH), address(this), block.timestamp);
-[38;2;220;144;36m[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024[0m
-   └─[1] [38;2;113;33;94m0x8BC6Ce23E5e2c4f0A96429E3C9d482d74171215e[0m.[38;2;255;123;114mcall[0m{value: [38;2;153;0;204m151115.7274 Ether[0m}()
