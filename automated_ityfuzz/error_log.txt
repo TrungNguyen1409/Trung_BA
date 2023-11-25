@@ -49,4 +49,14 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 ----------------- 3nd execution after script adjustment ETH --------------
 
-1. TempleDao: Timed-out
+1 : TempleDao : TIMEOUT
+2 : XaveFinance : TIMEOUT
+OlympusDao : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0xa29e4fe451ccfa5e7def35188919ad7077a4de8f,0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5,0x007FE7c498A2Cf30971ad8f2cbC36bd14Ac51156 -c eth --onchain-block-number [15794364](https://etherscan.io/block/15794364) -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0xa29e4fe451ccfa5e7def35188919ad7077a4de8f,0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5,0x007FE7c498A2Cf30971ad8f2cbC36bd14Ac51156 -c eth --onchain-block-number [15794364](https://etherscan.io/block/15794364) -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN'
+
+XaveFinance : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0xE94B97b6b43639E238c851A7e693F50033EfD75C,0x6335A2E4a2E304401fcA4Fc0deafF066B813D055,0x579270F151D142eb8BdC081043a983307Aa15786,0x8f9036732b9aa9b82D8F35e54B71faeb2f573E2F,0x325a2e0F3CCA2ddbaeBB4DfC38Df8D19ca165b47,0xE167cdAAc8718b90c03Cf2CB75DC976E24EE86D3 -c eth --onchain-block-number 15704746 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
