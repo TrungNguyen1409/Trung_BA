@@ -1,0 +1,5 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x5542958FA9bD89C96cB86D1A6Cb7a3e644a3d46e.50ad2367(0x636f77c2807fa5d7373737373737373737370037)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x5542958FA9bD89C96cB86D1A6Cb7a3e644a3d46e → WETH), address(this), block.timestamp);

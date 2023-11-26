@@ -1,0 +1,5 @@
+Reverted? false 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x9C65AB58d8d978DB963e63f2bfB7121627e3a739.decreaseAllowance(0xAFE24E29Da7E9b3e8a25c9478376B6AD6AD788dD, 0)
+   │  └─ ← 0x01

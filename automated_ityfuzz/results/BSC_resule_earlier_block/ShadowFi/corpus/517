@@ -1,0 +1,5 @@
+Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1.burn(0)
+   │  └─ ← 0x01

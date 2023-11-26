@@ -1,0 +1,15 @@
+Reverted? false 
+ Txn:
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   ├─[1] 0x7864580fb68Ba28B8efF7399dEAEAC5053Ec38A5.remove_Random_Tokens(0xe1A425f1AC34A8a441566f93c82dD730639c8510, 452312848583266388373324160190187149239459784465496966790.2455 Ether)
+   │  │  └─ ← ()
+   │  [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   │  │  ├─[3] 0xEeBc161437FA948AAb99383142564160c92D2974.swap(1692608971, 3582, 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 0xab54fbfbfb6ffbfbfbfbfbfb8b8b8b8b8b8b8b8b)
+   │  │  │  ├─[4] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  ├─[2] Router.swapExactTokensForETH(100% Balance, 0, path:(0xEeBc161437FA948AAb99383142564160c92D2974 → WETH), address(this), block.timestamp);
+   │  │  │  │  └─ ← ()
+   │  [Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   │  │  ├─[3] 0xa0787DaAD6062349f63b7c228CBFd5d8A3dB08F1.decreaseAllowance(0x128cd0Ae1a0aE7e67419111714155E1B1c6B2D8D, 0)
+   │  │  │  └─ ← 0x01
+   │  │  ├─[3] 0xEeBc161437FA948AAb99383142564160c92D2974.sync()
+   │  │  └─[2] Router.swapExactTokensForETH(100% Balance, 0, path:(0xEeBc161437FA948AAb99383142564160c92D2974 → WETH), address(this), block.timestamp);

@@ -1,0 +1,8 @@
+Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] Router.swapExactETHForTokens{value: 10.0 Ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xD4BBF439d3EAb5155Ca7c0537E583088fB4CFCe8.harvestStrategy(0xeDc4050bE30300E366f6A742E9Ee7902e72d5d96)
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0xD4BBF439d3EAb5155Ca7c0537E583088fB4CFCe8 → WETH), address(this), block.timestamp);
+   └─[1] 0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F.harvest(21643876544346525449349804388292084319774374630795492978316.2711 Ether)

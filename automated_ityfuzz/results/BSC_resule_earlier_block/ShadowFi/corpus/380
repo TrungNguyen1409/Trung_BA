@@ -1,0 +1,7 @@
+Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x4f3126d5DE26413AbDCF6948943FB9D0847d9818.mint(0x5a596eAE0010E16ed3B021FC09BbF0b7f1B2d3cD, 0, 0, 309485009.8213 Ether, 0x)
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x4f3126d5DE26413AbDCF6948943FB9D0847d9818 → WETH), address(this), block.timestamp);
+   │  │  └─ ← ()

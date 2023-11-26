@@ -1,0 +1,6 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x81917eb96b397dFb1C6000d28A5bc08c0f05fC1d.flashLoan(511, 2700, 0x10ED43C718714eb63d5aA57B78B54704E256024E, 0xfd060a6402021202030a1902f6f67e0022020001)
+   │  ├─[2] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  └─ ← ()

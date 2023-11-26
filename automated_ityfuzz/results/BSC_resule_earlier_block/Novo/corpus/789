@@ -1,0 +1,7 @@
+Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x9154c2684aeF8d106babcB19Aa81d4FabF7581ec.auditConfig(0xE16699481Cb5DC79CA491F8437182d73eb0dd09D)
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  │  └─ ← ()
+   │  │  └─ ← ()

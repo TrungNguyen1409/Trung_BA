@@ -1,0 +1,13 @@
+Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] Router.swapExactETHForTokens{value: 85070591730234616051.3449 Ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 340281900425517579484.9548 Ether}(0, path:(WETH → 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.deposit{value: 939805809389838367.1890 Ether}()
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xD4BBF439d3EAb5155Ca7c0537E583088fB4CFCe8.harvestStrategy(0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c)
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  [Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   │  │  ├─[3] 0x3CD1C46068dAEa5Ebb0d3f55F6915B10648062B8.quote(13031, 20732724051758938700687571.5574 Ether, 646721610756962140502859144.8278 Ether)
+   │  │  │  └─ ← 0x0633cf

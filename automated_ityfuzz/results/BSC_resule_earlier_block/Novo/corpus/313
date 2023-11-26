@@ -1,0 +1,5 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xa900A6291d3A49B1b555b40bd6277D56228B690b.approve(0x5138133f0671071D8b8F1C4c180881bfCfe22CeC, 0)
+   │  └─ ← 0x01

@@ -1,0 +1,5 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x375D32FadA30d7e6Fea242FCa221a22CC6d52B30.getInterestRate(725041903437313076025948303576.7339 Ether, 4722.3664 Ether)
+   │  └─ ← 0x0b13138a67

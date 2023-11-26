@@ -1,0 +1,5 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x556B9306565093C855AEA9AE92A594704c2Cd59e.multicall{value: 15.6254 Ether}((0x6c5f5f5fe2635f6c6c6c656c6c6c6cff07070707))
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x556B9306565093C855AEA9AE92A594704c2Cd59e → WETH), address(this), block.timestamp);

@@ -1,0 +1,5 @@
+Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x233d91A0713155003fc4DcE0AFa871b508B3B715.transferOwnership(0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x233d91A0713155003fc4DcE0AFa871b508B3B715 → WETH), address(this), block.timestamp);

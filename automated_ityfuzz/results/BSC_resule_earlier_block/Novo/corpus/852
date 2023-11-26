@@ -1,0 +1,4 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0xeDc4050bE30300E366f6A742E9Ee7902e72d5d96.claimReward()
