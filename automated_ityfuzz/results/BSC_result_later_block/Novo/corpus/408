@@ -1,0 +1,6 @@
+Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x0eD7e52944161450477ee417DE9Cd3a859b14fD0.swap(20853, 0, 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024, 0x8c7f807e7f7f7f7f817f7f80000000ffff8d8cce)
+   │  ├─[2] [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024.fallback()
+   │  │  └─ ← ()

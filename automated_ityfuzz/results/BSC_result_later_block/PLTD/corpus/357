@@ -1,0 +1,6 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x2fbb59aE194c9552d3bC4Aa168E9Ab684f579Fe6.addRelation(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb, 0x13A145D215182924c89F2aBc7D358DCc72F8F788)
+   │  ├─[2] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  └─ ← ()

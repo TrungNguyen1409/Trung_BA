@@ -1,0 +1,22 @@
+Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveMax{value: 5830}(0x5542958FA9bD89C96cB86D1A6Cb7a3e644a3d46e)
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x13f4EA83D0bd40E75C8222255bc855a974568Dd4 → WETH), address(this), block.timestamp);
+   ├─[1] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveMax(0x55d398326f99059fF775485246999027B3197955)
+   ├─[1] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveZeroThenMax{value: 668921822614551.1693 Ether}(0x46A15B0b27311cedF172AB29E4f4766fbE7F4364)
+   │  ├─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x13f4EA83D0bd40E75C8222255bc855a974568Dd4 → WETH), address(this), block.timestamp);
+   │  │  ├─[3] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveZeroThenMax(0x0000000000000000000000000000000000000000)
+   │  │  │  ├─[4] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  │  │  ├─[5] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveZeroThenMax(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb)
+   │  │  │  │  │  ├─[6] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  │  │  │  [Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   │  │  │  │  │  │  ├─[7] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.callPositionManager(0x20fe20ff3420fe0820e1e89a00342008209f2afe)
+   │  │  │  │  │  │  │  │  └─ ← ()
+   │  │  │  │  │  │  └─ ← ()
+   │  │  │  │  │  [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   │  │  │  │  │  │  ├─[7] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.refundETH()
+   │  │  │  │  │  │  │  ├─[8] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  │  │  │  │  ├─[4] Router.swapExactTokensForETH(100% Balance, 0, path:(0x13f4EA83D0bd40E75C8222255bc855a974568Dd4 → WETH), address(this), block.timestamp);
+   │  │  │  │  │  │  │  │  └─ ← ()

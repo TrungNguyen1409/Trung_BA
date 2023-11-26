@@ -1,0 +1,9 @@
+Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveMax(0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024)
+   │  ├─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  ├─[3] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.approveZeroThenMax(0x0000000000000000000000000000000000000000)
+   │  │  │  ├─[4] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   │  │  ├─[2] Router.swapExactTokensForETH(100% Balance, 0, path:(0x13f4EA83D0bd40E75C8222255bc855a974568Dd4 → WETH), address(this), block.timestamp);
+   │  │  │  │  └─[5] 0x13f4EA83D0bd40E75C8222255bc855a974568Dd4.callPositionManager{value: 34565120187111605026.2152 Ether}(0x65c4fe10cdff40ea7fc4ff00cd2b1482e0000100)

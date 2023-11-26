@@ -1,0 +1,5 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xE34fE14fb0CFAfb15ac6D6a63EFCaf262b3Ac1C6.b99152d0(0x16f2b73C5DD03e22bf240ED5f4AB3c2Ad75B10bB)
+   │  └─ ← 0x00

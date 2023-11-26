@@ -1,0 +1,4 @@
+Reverted? true 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0x5336a15F27B74f62Cc182388C005dF419FFB58b8.fd6f7e79{value: 576324747496954728.1645 Ether}((true, true, true, true, true, true, true, true, true, true, true, true, true, true), 0x55d398326f99059fF775485246999027B3197955)

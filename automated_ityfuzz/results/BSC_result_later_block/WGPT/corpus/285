@@ -1,0 +1,4 @@
+Reverted? false 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] 0x525fF303d2926F37bc67D1a696c4c0b78F568770.initialize()
