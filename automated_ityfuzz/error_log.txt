@@ -167,3 +167,5 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 14 : WGPT : TIMEOUT
 15 : ShadowFi : TIMEOUT
 16 : MetaPoint : TIMEOUT
+
+------------------------ 7th execution : ETH exact block after refinement --------------

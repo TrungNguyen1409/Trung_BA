@@ -3,7 +3,7 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const fsExtra = require("fs-extra");
 
-const jsonString = fs.readFileSync("later_block_exploits.json", "utf8");
+const jsonString = fs.readFileSync("exact_block_exploits.json", "utf8");
 const tasks = JSON.parse(jsonString);
 
 const errorLogFile = "error_log.txt";
@@ -86,5 +86,5 @@ async function runTasksWithTimeout(timeout) {
   }
 }
 
-const timeout = 3600;
+const timeout = 2700;
 runTasksWithTimeout(timeout);
