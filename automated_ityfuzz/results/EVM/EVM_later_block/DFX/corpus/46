@@ -1,0 +1,4 @@
+Reverted? true 
+ Txn:
+[38;2;205;121;221m[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd[0m
+   └─[1] [38;2;114;170;82m0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52[0m.[38;2;255;123;114mStepping with return: 28307829[0m{value: [38;2;153;0;204m32495926031.2412 Ether[0m}()
