@@ -188,3 +188,31 @@ thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
 called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
+DXF : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x46161158b1947D9149E066d6d31AF1283b2d377C,0x6cFa86a352339E766FF1cA119c8C40824f41F22D,0x27E843260c71443b4CC8cB6bF226C3f77b9695AF,0xebF2096E01455108bAdCbAF86cE30b6e5A72aa52,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 -c eth --onchain-block-number 15933795 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+BrahTOPG : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0xD248B30A3207A766d318C7A87F5Cf334A439446D,0xA19789f57D0E0225a82EEFF0FeCb9f3776f276a3,0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,0x853d955aCEf822Db058eb8505911ED77F175b99e -c eth --onchain-block-number 15933795 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+TeamFinance : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x48d118c9185e4dbafe7f3813f8f29ec8a6248359,0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,0x6B175474E89094C44Da98b954EedeAC495271d0F,0xf3b9569F82B18aEf890De263B84189bd33EBe452,0xc5fB36dd2fb59d3B98dEfF88425a3F425Ee469eD,0x854373387E41371Ac6E307A1F29603c6Fa10D872,0x7a809081f991eCfe0aB2727C7E90D2Ad7c2E411E,0x67CeA36eEB36Ace126A3Ca6E21405258130CF33C,0x9267C29e4f517cE9f6d603a15B50Aa47cE32278D -c eth --onchain-block-number 15838225 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+OlympusDao : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5,0x007FE7c498A2Cf30971ad8f2cbC36bd14Ac51156 -c eth --onchain-block-number 15794364 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+8 : CowSwap : TIMEOUT
+9 : revertFinance : TIMEOUT
+10 : Dexible : TIMEOUT
+Euler : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x27182842E098f60e3D576794A5bFFb0777E025d3,0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c,0x6B175474E89094C44Da98b954EedeAC495271d0F,0xe025E3ca2bE02316033184551D4d3Aa22024D9DC,0x6085Bc95F506c326DCBCD7A6dd6c79FBc18d4686,0xf43ce1d09050BAfd6980dD43Cde2aB9F18C85b34 -c eth --onchain-block-number 16817996 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
