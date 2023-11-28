@@ -1,0 +1,8 @@
+Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] Router.swapExactETHForTokens{value: 0.7181 Ether}(0, path:(WETH → 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599), address(this), block.timestamp);
+   ├─[1] 0xBA12222222228d8Ba445958a75a0704d566BF2C8.flashLoan(0xcae229361B554CEF5D1b4c489a75a53b4f4C9C24, (0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48), (324395558272590041164879983521772414167762969811305301.9098 Ether), 0x)
+   │  │  └─ ← ()
+   │  │  └─ ← ()
+   │  │  └─ ← ()

@@ -1,0 +1,9 @@
+Reverted? false 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0xBA12222222228d8Ba445958a75a0704d566BF2C8.flashLoan(0x5F360c6b7B25DfBfA4F10039ea0F7ecfB9B02E60, (0x5F360c6b7B25DfBfA4F10039ea0F7ecfB9B02E60), (0), 0x46c99edcdcdcdcdccedcdcdcdcdcd5be7c39dcae)
+   │  │  └─ ← ()
+   │  │  └─ ← ()
+   │  │  └─ ← ()
+   │  │  └─ ← ()
+   │  │  └─ ← ()

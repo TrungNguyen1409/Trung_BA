@@ -1,0 +1,8 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0xBA12222222228d8Ba445958a75a0704d566BF2C8.manageUserBalance{value: 78918677504.4429 Ether}(())
+   │  ├─[2] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  ├─[3] 0x849AF4b128be3317a694bFD262dEFF636AB84c1b.call(0x50894e9f)
+   │  │  │  └─ ← 0x08
+   │  │  ├─[2] Router.swapExactTokensForETH(100% Balance, 0, path:(0x849AF4b128be3317a694bFD262dEFF636AB84c1b → WETH), address(this), block.timestamp);
