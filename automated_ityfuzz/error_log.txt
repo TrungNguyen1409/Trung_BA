@@ -169,3 +169,22 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 16 : MetaPoint : TIMEOUT
 
 ------------------------ 7th execution : ETH exact block after refinement --------------
+1 : TempleDao : TIMEOUT
+2 : XaveFinance : TIMEOUT
+3 : OlympusDao : TIMEOUT
+4 : TeamFinance : TIMEOUT
+5 : BrahTOPG : TIMEOUT
+6 : DXF : TIMEOUT
+7 : Roe Finance : TIMEOUT
+revertFinance : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0x067d0f9089743271058d4bf2a1a29f4e9c6fdd1b,0x4107a0a4a50ac2c4cc8c5a3954bc01ff134506b2,,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,0x531110418d8591C92e9cBBFC722Db8FFb604FAFD 16653390 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+error: unexpected argument '16653390' found
+
+Usage: ityfuzz_f evm [OPTIONS] --target <TARGET>
+
+For more information, try '--help'.
+
+Roe Finance : Command failed: ETH_RPC_URL=https://rpc.ankr.com/eth/f60a37ab75ede059ccff3c98eb151d4a9ecfaa4413e6f8b1783c2b3adc94abb0 ./bashscript/bin/ityfuzz evm -o -t 0xBA12222222228d8Ba445958a75a0704d566BF2C8,0x9C435589f24257b19219ba1563e3c0D8699F27E9,0x68B26dCF21180D2A8DE5A303F8cC5b14c8d99c4c,0x004375Dff511095CC5A197A54140a24eFEF3A416,0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48,0x004375Dff511095CC5A197A54140a24eFEF3A416,0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599,0x26cd328E7C96c53BD6CAA6067e08d792aCd92e4E,0xcae229361B554CEF5D1b4c489a75a53b4f4C9C24 -c eth --onchain-block-number 16384470 -f -i -p --onchain-etherscan-api-key RQK715JG3N1EK96NXU7CD4U45JZNB51EWN
+thread 'main' panicked at src/evm/middlewares/call_printer.rs:105:14:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
