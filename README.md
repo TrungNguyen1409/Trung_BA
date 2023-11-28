@@ -7,7 +7,7 @@ Main DB lies in the database folder: defi_sok_extended.db => not picked up by gi
 
 ## Relation Database Structure
 
-![Alt text](https://github.com/TrungNguyen1409/Trung_BA/blob/main/Figure-7-datastructure.jpeg)
+![Alt text](https://github.com/TrungNguyen1409/Trung_BA/blob/main/Dataset-structure.jpeg)
 
 ## MANUAL
 
