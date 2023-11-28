@@ -31,7 +31,7 @@ async function fetchTransactionsForAddresses() {
           `RESCUE TIME for ${addressArray[i]}: ${
             (result.firstTransactionAfterCreation.blockNumber -
               result.creationTransaction.blockNumber) *
-            3
+            15
           } seconds`
         );
 
