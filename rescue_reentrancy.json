@@ -1,0 +1,44 @@
+[
+  {
+    "month": "2022-05",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2022-06",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2022-11",
+    "avg_rescue_time": 60.0,
+    "highest_rescue_time": 60,
+    "lowest_rescue_time": 60
+  },
+  {
+    "month": "2023-02",
+    "avg_rescue_time": 43.5,
+    "highest_rescue_time": 87,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2023-04",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2023-07",
+    "avg_rescue_time": 45.0,
+    "highest_rescue_time": 45,
+    "lowest_rescue_time": 45
+  },
+  {
+    "month": "2023-08",
+    "avg_rescue_time": 15.0,
+    "highest_rescue_time": 15,
+    "lowest_rescue_time": 15
+  }
+]

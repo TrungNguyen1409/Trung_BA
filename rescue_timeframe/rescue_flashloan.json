@@ -1,0 +1,104 @@
+[
+  {
+    "month": "2022-05",
+    "avg_rescue_time": 109.5,
+    "highest_rescue_time": 135,
+    "lowest_rescue_time": 84
+  },
+  {
+    "month": "2022-06",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2022-07",
+    "avg_rescue_time": 90.0,
+    "highest_rescue_time": 90,
+    "lowest_rescue_time": 90
+  },
+  {
+    "month": "2022-08",
+    "avg_rescue_time": 178.5,
+    "highest_rescue_time": 300,
+    "lowest_rescue_time": 57
+  },
+  {
+    "month": "2022-09",
+    "avg_rescue_time": 24.0,
+    "highest_rescue_time": 24,
+    "lowest_rescue_time": 24
+  },
+  {
+    "month": "2022-10",
+    "avg_rescue_time": 58.5,
+    "highest_rescue_time": 87,
+    "lowest_rescue_time": 15
+  },
+  {
+    "month": "2022-11",
+    "avg_rescue_time": 273.0,
+    "highest_rescue_time": 273,
+    "lowest_rescue_time": 273
+  },
+  {
+    "month": "2022-12",
+    "avg_rescue_time": 684.0,
+    "highest_rescue_time": 684,
+    "lowest_rescue_time": 684
+  },
+  {
+    "month": "2023-02",
+    "avg_rescue_time": 75.0,
+    "highest_rescue_time": 75,
+    "lowest_rescue_time": 75
+  },
+  {
+    "month": "2023-03",
+    "avg_rescue_time": 4860.0,
+    "highest_rescue_time": 9705,
+    "lowest_rescue_time": 30
+  },
+  {
+    "month": "2023-04",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2023-05",
+    "avg_rescue_time": 2825.0,
+    "highest_rescue_time": 5715,
+    "lowest_rescue_time": 120
+  },
+  {
+    "month": "2023-06",
+    "avg_rescue_time": 96.0,
+    "highest_rescue_time": 96,
+    "lowest_rescue_time": 96
+  },
+  {
+    "month": "2023-07",
+    "avg_rescue_time": 49342.5,
+    "highest_rescue_time": 186663,
+    "lowest_rescue_time": 129
+  },
+  {
+    "month": "2023-08",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2023-09",
+    "avg_rescue_time": 33.0,
+    "highest_rescue_time": 33,
+    "lowest_rescue_time": 33
+  },
+  {
+    "month": "2023-10",
+    "avg_rescue_time": 9930.0,
+    "highest_rescue_time": 9930,
+    "lowest_rescue_time": 9930
+  }
+]

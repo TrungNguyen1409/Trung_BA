@@ -1,0 +1,66 @@
+[
+  {
+    "month": "2022-05",
+    "avg_rescue_time": 51.0
+  },
+  {
+    "month": "2022-06",
+    "avg_rescue_time": 69.0
+  },
+  {
+    "month": "2022-07",
+    "avg_rescue_time": 90.0
+  },
+  {
+    "month": "2022-08",
+    "avg_rescue_time": 644.0
+  },
+  {
+    "month": "2022-09",
+    "avg_rescue_time": 24.0
+  },
+  {
+    "month": "2022-10",
+    "avg_rescue_time": 117.75
+  },
+  {
+    "month": "2022-11",
+    "avg_rescue_time": 138.0
+  },
+  {
+    "month": "2022-12",
+    "avg_rescue_time": 684.0
+  },
+  {
+    "month": "2023-01",
+    "avg_rescue_time": 127.0
+  },
+  {
+    "month": "2023-02",
+    "avg_rescue_time": 105.0
+  },
+  {
+    "month": "2023-03",
+    "avg_rescue_time": 3075.0
+  },
+  {
+    "month": "2023-04",
+    "avg_rescue_time": 105.0
+  },
+  {
+    "month": "2023-05",
+    "avg_rescue_time": 236.25
+  },
+  {
+    "month": "2023-06",
+    "avg_rescue_time": 96.0
+  },
+  {
+    "month": "2023-07",
+    "avg_rescue_time": 34541.0
+  },
+  {
+    "month": "2023-09",
+    "avg_rescue_time": 33.0
+  }
+]

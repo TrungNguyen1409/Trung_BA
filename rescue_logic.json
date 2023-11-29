@@ -1,0 +1,98 @@
+[
+  {
+    "month": "2022-05",
+    "avg_rescue_time": 135.0,
+    "highest_rescue_time": 135,
+    "lowest_rescue_time": 135
+  },
+  {
+    "month": "2022-06",
+    "avg_rescue_time": 69.0,
+    "highest_rescue_time": 69,
+    "lowest_rescue_time": 69
+  },
+  {
+    "month": "2022-07",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2022-08",
+    "avg_rescue_time": 937.5,
+    "highest_rescue_time": 1575,
+    "lowest_rescue_time": 300
+  },
+  {
+    "month": "2022-09",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2022-10",
+    "avg_rescue_time": 418.8,
+    "highest_rescue_time": 1470,
+    "lowest_rescue_time": 87
+  },
+  {
+    "month": "2022-11",
+    "avg_rescue_time": 138.0,
+    "highest_rescue_time": 273,
+    "lowest_rescue_time": 3
+  },
+  {
+    "month": "2022-12",
+    "avg_rescue_time": 684.0,
+    "highest_rescue_time": 684,
+    "lowest_rescue_time": 684
+  },
+  {
+    "month": "2023-01",
+    "avg_rescue_time": 225.0,
+    "highest_rescue_time": 630,
+    "lowest_rescue_time": 6
+  },
+  {
+    "month": "2023-02",
+    "avg_rescue_time": 1323.75,
+    "highest_rescue_time": 4140,
+    "lowest_rescue_time": 105
+  },
+  {
+    "month": "2023-03",
+    "avg_rescue_time": 6390.0,
+    "highest_rescue_time": 9705,
+    "lowest_rescue_time": 3075
+  },
+  {
+    "month": "2023-04",
+    "avg_rescue_time": 45375.0,
+    "highest_rescue_time": 45375,
+    "lowest_rescue_time": 45375
+  },
+  {
+    "month": "2023-05",
+    "avg_rescue_time": 315.0,
+    "highest_rescue_time": 315,
+    "lowest_rescue_time": 315
+  },
+  {
+    "month": "2023-06",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  },
+  {
+    "month": "2023-07",
+    "avg_rescue_time": 15.0,
+    "highest_rescue_time": 15,
+    "lowest_rescue_time": 15
+  },
+  {
+    "month": "2023-10",
+    "avg_rescue_time": 0,
+    "highest_rescue_time": 0,
+    "lowest_rescue_time": 0
+  }
+]
