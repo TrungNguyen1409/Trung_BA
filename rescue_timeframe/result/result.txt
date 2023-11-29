@@ -39,3 +39,15 @@ Standard Deviation: 11275.3622479571
 Margin of Error: 4636.992724472358
 Lower Bound: -1135.3645994723574
 Upper Bound: 8138.620849472358
+
+------------------------------------------------------------------------
+
+
+OF EVERY MONTH FROM 5 2022 to 10 2023
+
+90% Confidence Interval:
+Mean: 8890.208333333334
+Standard Deviation: 45187.53656813826
+Margin of Error: 8760.28671014552
+Lower Bound: 129.92162318781448
+Upper Bound: 17650.495043478855

@@ -13,7 +13,7 @@ function readJsonFromFile(filename) {
 }
 
 // Assuming the JSON file is in the same directory as the script
-const filename = __dirname + "/rescue_logic.json";
+const filename = __dirname + "/everyrescue.json";
 
 const rescueData = readJsonFromFile(filename);
 
