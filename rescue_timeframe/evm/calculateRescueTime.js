@@ -41,7 +41,7 @@ async function fetchTransactionsForAddresses() {
           rescueTime:
             (result.firstTransactionAfterCreation.blockNumber -
               result.creationTransaction.blockNumber) *
-            3,
+            15,
         });
       } catch (error) {
         console.error(`Error for address ${addressArray[i]}: ${error.message}`);
