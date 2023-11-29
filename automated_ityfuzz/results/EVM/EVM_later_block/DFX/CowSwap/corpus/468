@@ -1,0 +1,28 @@
+Reverted? false 
+ Txn:
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   └─[1] Router.swapExactETHForTokens{value: 182817872076243319130.6281 Ether}(0, path:(WETH → 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2), address(this), block.timestamp);
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] Router.swapExactETHForTokens{value: 10.0 Ether}(0, path:(WETH → 0x389999216860AB8E0175387A0c90E5c52522C945), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x6DcAab6fdAc993Ec3E7161A768Db772ef5AdCcA3.sync()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x6DcAab6fdAc993Ec3E7161A768Db772ef5AdCcA3 → WETH), address(this), block.timestamp);
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0x4e6e41306C7Ef6E53eCdb34e3155C73fCb7869F3.sync()
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] Router.swapExactETHForTokens{value: 2376381531}(0, path:(WETH → 0xf3b9569F82B18aEf890De263B84189bd33EBe452), address(this), block.timestamp);
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] 0x7a809081f991eCfe0aB2727C7E90D2Ad7c2E411E.skim(0xe1A425f1AC34A8a441566f93c82dD730639c8510)
+[Sender] 0xe1A425f1AC34A8a441566f93c82dD730639c8510
+   └─[1] 0x389999216860AB8E0175387A0c90E5c52522C945.reflect(3385217942)
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x7a809081f991eCfe0aB2727C7E90D2Ad7c2E411E.sync()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x7a809081f991eCfe0aB2727C7E90D2Ad7c2E411E → WETH), address(this), block.timestamp);
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x854373387E41371Ac6E307A1F29603c6Fa10D872.skim(0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb)
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x854373387E41371Ac6E307A1F29603c6Fa10D872 → WETH), address(this), block.timestamp);
+   ├─[1] 0x48D118C9185e4dBAFE7f3813F8F29EC8a6248359.initialize()
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x48D118C9185e4dBAFE7f3813F8F29EC8a6248359 → WETH), address(this), block.timestamp);
+[Sender] 0x68Dd4F5AC792eAaa5e36f4f4e0474E0625dc9024
+   ├─[1] 0x389999216860AB8E0175387A0c90E5c52522C945.reflect(0)
+   └─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x389999216860AB8E0175387A0c90E5c52522C945 → WETH), address(this), block.timestamp);

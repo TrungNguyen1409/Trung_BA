@@ -1,0 +1,7 @@
+Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] 0x004375Dff511095CC5A197A54140a24eFEF3A416.swap(18329, 26618, 0x004375Dff511095CC5A197A54140a24eFEF3A416, 0x7f7f3a7f000022e947dcdce2dbdcdc8d5c6fa280)
+   │  ├─[2] [Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd.fallback()
+   ├─[1] Router.swapExactTokensForETH(100% Balance, 0, path:(0x004375Dff511095CC5A197A54140a24eFEF3A416 → WETH), address(this), block.timestamp);
+   │  │  └─ ← ()
