@@ -1,0 +1,41 @@
+
+
+Flash Loan Attack:
+90% Confidence Interval:
+Mean: 4034.0588235294117
+Standard Deviation: 11960.481744429173
+Margin of Error: 4771.886596196182
+Lower Bound: -737.8277726667702
+Upper Bound: 8805.945419725595
+
+
+------------------------------------------------------------------------
+
+Reentrancy:
+90% Confidence Interval:
+Mean: 23.357142857142858
+Standard Deviation: 25.571328810659352
+Margin of Error: 15.899013530719444
+Lower Bound: 7.458129326423414
+Upper Bound: 39.256156387862305
+
+------------------------------------------------------------------------
+
+Oracle:
+90% Confidence Interval:
+Mean: 20793.555555555555
+Standard Deviation: 62201.098881191625
+Margin of Error: 34106.93588652007
+Lower Bound: -13313.380330964515
+Upper Bound: 54900.491442075625
+
+
+------------------------------------------------------------------------
+
+Logic:
+90% Confidence Interval:
+Mean: 3501.628125
+Standard Deviation: 11275.3622479571
+Margin of Error: 4636.992724472358
+Lower Bound: -1135.3645994723574
+Upper Bound: 8138.620849472358
