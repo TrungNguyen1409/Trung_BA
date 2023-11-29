@@ -246,3 +246,6 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 11 : Euler : TIMEOUT
 15 : EarningFarm : TIMEOUT
 1 : TempleDao : TIMEOUT
+2 : XaveFinance : TIMEOUT
+3 : OlympusDao : TIMEOUT
+4 : TeamFinance : TIMEOUT
