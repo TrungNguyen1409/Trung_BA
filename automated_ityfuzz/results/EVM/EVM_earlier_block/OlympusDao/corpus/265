@@ -1,0 +1,4 @@
+Reverted? true 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   └─[1] 0xdAC17F958D2ee523a2206206994597C13D831ec7.pause()

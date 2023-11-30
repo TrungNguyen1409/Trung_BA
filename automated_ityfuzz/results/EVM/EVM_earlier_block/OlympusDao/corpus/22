@@ -1,0 +1,6 @@
+Reverted? false 
+ Txn:
+[Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb
+   ├─[1] 0x007FE7c498A2Cf30971ad8f2cbC36bd14Ac51156.claimFees((0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb), 0x0000000000000000000000000000000000000000)
+   │  ├─[2] [Sender] 0x35c9dfd76bf02107ff4f7128Bd69716612d31dDb.fallback()
+   │  │  └─ ← ()
