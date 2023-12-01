@@ -1,0 +1,16 @@
+Incident,Earlier Block,Exact Block,Later Block
+IndexedFinance-20211014,timed out,timed out,timed out
+RevertFinance-20220327,timed out,profited,timed out
+Xave-20221009,timed out,timed out,timed out
+TempleDao-20221011,timed out,timed out,timed out
+OlympusDao-20221021,profited,timed out,timed out
+TeamFinance-20221027,timed out,timed out,timed out
+BrahTOPG-20221110,timed out,timed out,timed out
+DFXFinance-20221111,profited,profited,arbitrary call
+RoeFinance-20230112,timed out,timed out,timed out
+CowSwap-20230207,arbitrary call,arbitrary call,arbitrary call
+Dexible-20230217,arbitrary call,arbitrary call,timed out
+Euler-20230313,timed out,timed out,timed out
+SushiSwap-20230409,timed out,timed out,timed out
+Arcadia-20230710,timed out,timed out,timed out
+EarningFarm-20230809,timed out,timed out,timed out
