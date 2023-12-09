@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">Are Smart Contract Attack Strategies Optimized?</h2>
+  <h1 align="center">Are Smart Contract Attack Strategies Optimized?</h1>
 
   <p align="center">
     This work is in the frame of my Bachelor's thesis at the Technical University of Munich
