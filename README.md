@@ -39,8 +39,7 @@ are only sub-optimal. Finally, based on our dataset calculation, we conclude tha
 rescue time frame for the defending party in a smart contract attack has decreased compared
 to prior years.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-[![JavaScript](http://3con14.biz/code/_data/js/intro/js-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 # DeFi Incident Database
 
@@ -49,6 +48,11 @@ This extended database, you can find in this folder, under file "defi_sok_extend
 
 <a href="https://github.com/TrungNguyen1409/Trung_BA/tree/main/database)https://github.com/TrungNguyen1409/Trung_BA/tree/main/database"><strong>Database »</strong></a>
 
-It is a SQLite database and we highly recommend using (https://sqlitebrowser.org/) client software to take a better look at the dataset. 
+It is a SQLite database and we highly recommend using SQLite Browser client software to take a better look at the dataset.  (https://sqlitebrowser.org/)
+
+
+# DeFi Incident Rescue Time Frame
+
+# Investigating Real-World Incidents with ITYFUZZ
 
 
