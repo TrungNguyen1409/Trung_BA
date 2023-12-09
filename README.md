@@ -53,6 +53,24 @@ It is a SQLite database and we highly recommend using SQLite Browser client soft
 
 # DeFi Incident Rescue Time Frame
 
+The script in this folder allows you to calculate the rescue timeframe defined in the paper.
+
+Make sure you have updated the db with new incident entries (Adversary table in the DB) -> fill it with adversary smart contract.
+
+The script will automatically run through all entries and calculate the timeframe on each one.
+
+Step 1: Install NPM packages
+   ```sh
+   npm install
+   ```
+
+Step 2: run the script
+  ```sh
+   node calculateTimeFrame.js
+   ```
+
+
+
 # Investigating Real-World Incidents with ITYFUZZ
 
 1. Get a free API Key at [https://example.com](https://example.com)
