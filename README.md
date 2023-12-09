@@ -11,6 +11,8 @@
 
   <p align="center">
     This work is in the frame of my Bachelor's thesis at the Technical University of Munich
+    <br />
+    <a href="https://github.com/TrungNguyen1409/Trung_BA/blob/main/Trung_Bachelor_Thesis.pdf"><strong>Research Paper »</strong></a>
   </p>
 </div>
 
