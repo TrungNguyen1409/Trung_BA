@@ -39,15 +39,7 @@ rescue time frame for the defending party in a smart contract attack has decreas
 to prior years.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### Built With
-* [[![JavaScript][https://github.com/topics/js-logo]][JavaScriptUrl]
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+[![JavaScript](http://3con14.biz/code/_data/js/intro/js-logo.png)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 # DeFi Incident Database
 
