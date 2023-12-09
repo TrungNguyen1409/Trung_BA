@@ -44,5 +44,8 @@ to prior years.
 # DeFi Incident Database
 
 For this research, we have extended the original database collected by Zhou et. al (https://sok.defi.security/)
-This extended database, you can find in the 
+This extended database, you can find in this folder:
+
+<a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/TrungNguyen1409/Trung_BA/tree/main/database)https://github.com/TrungNguyen1409/Trung_BA/tree/main/database"><strong>Database »</strong></a>
+
 
