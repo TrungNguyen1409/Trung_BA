@@ -31,10 +31,9 @@ arises: Would the adversaries have been able to take advantage of the protocols 
 different strategies?
 
 For this thesis, we have conducted a comprehensive dataset of 147 high-impact real-world DeFi
-incidents on Ethereum and BNB Smart Chain from May 01, 2022, to Oct 31, 2023, in which
-period the reported damage value amounted to over 1 billion USD. The analysis is supported
+incidents on Ethereum and BNB Smart Chain from May 01, 2022, to Oct 31, 2023. In that period, the reported damage value amounted to over 1 billion USD. The analysis is supported
 by a State-of-the-Art Smart Contract fuzzer, which suggests that some of the attack strategies
-are only sub-optimal. Finally, based on our calculation using the dataset, we conclude that the
+are only sub-optimal. Finally, based on our dataset calculation, we conclude that the
 rescue time frame for the defending party in a smart contract attack has decreased compared
 to prior years.
 
@@ -48,5 +47,6 @@ This extended database, you can find in this folder, under file "defi_sok_extend
 
 <a href="https://github.com/TrungNguyen1409/Trung_BA/tree/main/database)https://github.com/TrungNguyen1409/Trung_BA/tree/main/database"><strong>Database »</strong></a>
 
+It is a SQLite database and we highly recommend using (https://sqlitebrowser.org/) client software to take a better look at the dataset. 
 
 
