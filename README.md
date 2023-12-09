@@ -46,7 +46,7 @@ to prior years.
 For this research, we have extended the original database collected by Zhou et. al (https://sok.defi.security/)
 This extended database, you can find in this folder, under file "defi_sok_extended.db":
 
-<a href="(https://github.com/TrungNguyen1409/Trung_BA/tree/main/database)https://github.com/TrungNguyen1409/Trung_BA/tree/main/database"><strong>Database »</strong></a>
+<a href="https://github.com/TrungNguyen1409/Trung_BA/tree/main/database)https://github.com/TrungNguyen1409/Trung_BA/tree/main/database"><strong>Database »</strong></a>
 
 
 
