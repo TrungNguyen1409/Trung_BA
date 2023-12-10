@@ -80,9 +80,13 @@ in the folder automated_ityfuzz/bashscript, there is a shell script to keep ityf
    ityfuzzup
 ```
 Step 1: prepare command for the fuzzer in the incidents folder
+
 Step 2: install npm packages
+
 Step 3: create etherscan and bsc scan API 
+
 Step 4: set up an archive node for better performance.
+
 Step 5: run the script (runItyfuzz.js) and wait until execution is done and results will be saved in to another result folder if ityfuzz found a monetary exploit.
 
 
