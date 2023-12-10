@@ -73,16 +73,16 @@ Step 2: run the script
 
 # Investigating Real-World Incidents with ITYFUZZ
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+We used ityfuzz (https://github.com/fuzzland/ityfuzz) a smart contract fuzzer to investigate optimality of the incidents
+
+in the folder automated_ityfuzz/bashscript, there is a shell script to keep ityfuzz up-to-date. simple go to the folder and run
+```sh
+   ityfuzzup
+```
+Step 1: prepare command for the fuzzer in the incidents folder
+Step 2: install npm packages
+Step 3: create etherscan and bsc scan API 
+Step 4: set up an archive node for better performance.
+Step 5: run the script (runItyfuzz.js) and wait until execution is done and results will be saved in to another result folder if ityfuzz found a monetary exploit.
+
+
