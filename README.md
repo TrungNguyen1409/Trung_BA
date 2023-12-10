@@ -55,7 +55,7 @@ It is a SQLite database and we highly recommend using SQLite Browser client soft
 
 The script in this folder allows you to calculate the rescue timeframe defined in the paper.
 
-Make sure you have updated the db with new incident entries (Adversary table in the DB) -> fill it with adversary smart contract.
+Make sure you have updated the DB with new incident entries (Adversary table in the DB) -> fill it with adversary smart contract. And also use your private Etherscan API KEY and BSC Scan API KEY
 
 The script will automatically run through all entries and calculate the timeframe on each one.
 
